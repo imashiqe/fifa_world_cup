@@ -8,9 +8,63 @@
 .full_width{
     width: 100%;
 }
-.min_width{
-    width: 1321px;
+.container{
+    width: 1170px;
+    margin: 0 auto;
 }
 
 
 /* common css end */
+.banner{
+    background-color: #01253f;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.banner_text{
+    width: 530px;
+    padding-left: 50px;
+}
+
+.banner_text h3{
+    font-size: 60px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.banner_text p{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.button a{
+    text-decoration: none;
+    background-color: #1171b6;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+
+.button a:hover{
+    background-color: white;
+    color: black;
+    transition: all linear 1s;
+    tr
+}
+
+.banner_image img{
+    padding-top: 60px;
+    padding-left: 70px;
+}
