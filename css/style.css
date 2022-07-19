@@ -1,0 +1,16 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.full_width{
+    width: 100%;
+}
+.min_width{
+    width: 1321px;
+}
+
+
+/* common css end */
