@@ -222,9 +222,7 @@
     width: 688px;
 }
 
-.upcomming{
-  
-}
+
 .match_cat{
    display: none;
 
@@ -333,3 +331,52 @@
     grid-template-columns: repeat(2, 1fr);
 }
 }
+
+/* mobile */
+
+@media only screen and (max-width: 600px) {
+    .blog{
+   
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    
+    .footer_menu{
+        width: 30%;
+    }
+    
+    .upcosub{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner{
+        width: 40%;
+        flex-direction: column-reverse
+        ;
+    }
+    
+  
+    .match_cat{
+       background-color: #DD0000;
+    
+    
+    }
+
+    .banner_text{
+        width: 40%;
+        padding-left: 50px;
+    }
+    
+    .banner_text h3{
+        font-size: 30px;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .footer_text{
+       text-align: justify;
+       padding-left: 120px;
+       
+    }
+  }
