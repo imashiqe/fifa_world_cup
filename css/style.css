@@ -191,6 +191,12 @@
     border: 1px solid black;
 }
 
+.blog_text_btn a:hover{
+    background-color: #DD0000;
+    color: white;
+    transition: all linear 1s;
+}
+
 .blog_text p{
     font-size: 18px;
     font-weight: 400;
@@ -400,6 +406,11 @@
     text-align: justify;
     padding-left: 25%;
     
+ }
+
+ .footer-social{
+   text-align: justify;
+   padding-left: 25%;
  }
 /* mobile */
 
